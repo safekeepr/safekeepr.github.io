@@ -1,12 +1,12 @@
-title: VolkovSec
+title: safekeepr
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  VolkovSec | Security projects, research, and musings.
-twitter_username: volkovsec
-github_username: volkovsec
+  safekeepr | Security projects, research, and musings.
+twitter_username: safekeepr
+github_username: safekeepr
 minimal_mistakes_skin: dark
 search: true
-repository: volkovsecurity/volkovsec.github.io
+repository: safekeepr/safekeepr.github.io
 
 # Build settings
 markdown: kramdown
@@ -43,25 +43,25 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "@volkovsec"
+  name   : "@safekeepr"
   avatar : "/assets/images/profile/2x2.png"
   bio    : "Personal musings, finds, research, and projects."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/volkovsec"
+      url: "https://twitter.com/safekeepr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/volkovsec"
+      url: "https://github.com/safekeepr"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/volkovsec"
+      url: "https://twitter.com/safekeepr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/volkovsec"
+      url: "https://github.com/safekeepr"
 
 defaults:
   # _posts
