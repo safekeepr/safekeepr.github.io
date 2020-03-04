@@ -43,8 +43,8 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "@safekeepr"
-  avatar : "/assets/images/profile/2x2.png"
+  name   : "Casey Rendon"
+  avatar : "/assets/images/profile/prof_pic.png"
   bio    : "Personal musings, finds, research, and projects."
   links:
     - label: "Twitter"
