@@ -43,7 +43,7 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "Casey Rendon"
+  name   : "CR"
   avatar : "/assets/images/profile/prof_pic.jpg"
   bio    : "Personal musings, finds, research, and projects."
   links:
