@@ -1,0 +1,91 @@
+title: VolkovSec
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  VolkovSec | Security projects, research, and musings.
+twitter_username: volkovsec
+github_username: volkovsec
+minimal_mistakes_skin: dark
+search: true
+repository: volkovsecurity/volkovsec.github.io
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Chicago
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+author:
+  name   : "@volkovsec"
+  avatar : "/assets/images/profile/2x2.png"
+  bio    : "Personal musings, finds, research, and projects."
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/volkovsec"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/volkovsec"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/volkovsec"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/volkovsec"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
