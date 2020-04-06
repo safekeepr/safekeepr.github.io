@@ -10,9 +10,7 @@ share: true
 permalink: /covid-19-check-in/
 ---
 
-It's been a while.
-
-I figured I should publish a brief - but overdue - update. COVID-19 has put a lid on a lot of things, so I'll jump right in to the topics I've been diving through lately: PowerShell, security operations, and Python.
+I figured I should publish an update. COVID-19 has put a lid on a lot of things, so I'll jump right in to the topics I've been diving through lately: PowerShell, security operations, and Python.
 
 Python is more of a long-term interest. I just picked up [Python Crash Course](https://www.amazon.com/Python-Crash-Course-Eric-Matthes-ebook/dp/B07J4521M) by Eric Matthes - and yes, I'm itching to begin reading it. I'm waiting until I finish up the [Defensive Security Handbook](https://www.amazon.com/dp/B06Y18XC5Y) first, though. It's light reading, sure, but I always make sure I finish one book before starting the next. With Python, my goal is to get comfortable and then determine a simple project to tackle. I've learned that's the best way to get comfortable with any new tool: identify a problem, then fix it.
 
